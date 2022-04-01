@@ -31,8 +31,13 @@ let blocks: BlockType[] = [
 
 const App = () => {
   return (
-    <div className="flex w-full h-screen">
+    <div className="flex flex-col w-full h-screen">
       <Table blocks={blocks} />
+      <div className="text-center text-blue-500 py-3">
+        <a href="https://github.com/pawix135/pricing-tables" target={"_blank"}>
+          Github/pricing-tables
+        </a>
+      </div>
     </div>
   );
 };
