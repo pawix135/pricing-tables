@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/pricing-tables/static/css/main.467990ac.css",
+    "main.css": "/pricing-tables/static/css/main.c77267cd.css",
     "main.js": "/pricing-tables/static/js/main.d815adf2.js",
     "static/media/woman.png": "/pricing-tables/static/media/woman.6af93ac4a022d389cdd7.png",
     "index.html": "/pricing-tables/index.html",
-    "main.467990ac.css.map": "/pricing-tables/static/css/main.467990ac.css.map",
+    "main.c77267cd.css.map": "/pricing-tables/static/css/main.c77267cd.css.map",
     "main.d815adf2.js.map": "/pricing-tables/static/js/main.d815adf2.js.map"
   },
   "entrypoints": [
-    "static/css/main.467990ac.css",
+    "static/css/main.c77267cd.css",
     "static/js/main.d815adf2.js"
   ]
 }
