@@ -1,26 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import SaveMore from "./components/CustomBlocks/SaveMore";
+import Table from "./components/Table";
+import skull from "./assets/skull_icon.png";
 
-function App() {
+let blocks: BlockType[] = [
+  {
+    customComponent: SaveMore,
+    order: 3,
+  },
+  {
+    title: "Day Pas",
+    icon: skull,
+    perks: ["8 hours usage of our coworking space", "Access to All our rooms"],
+    cost: 20,
+    order: 1,
+  },
+  {
+    title: "Monthly Pass",
+    icon: skull,
+    perks: [
+      "8 hours usage of our coworking space",
+      "Access to All our rooms",
+      "Dedicated Desk",
+      "Free Business Address",
+      "Free Lunch 1x a day",
+    ],
+    cost: 380,
+    order: 2,
+  },
+];
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex w-full h-screen">
+      <Table blocks={blocks} />
     </div>
   );
-}
+};
 
 export default App;
